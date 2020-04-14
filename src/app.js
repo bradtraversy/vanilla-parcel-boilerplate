@@ -1,1 +1,6 @@
-console.log('It is working...');
+import './scss/app.scss';
+
+const app = async () => {};
+
+// Load app
+app();
