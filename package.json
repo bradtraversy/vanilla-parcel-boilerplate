@@ -26,5 +26,8 @@
     "@babel/runtime-corejs2": "^7.9.2",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
