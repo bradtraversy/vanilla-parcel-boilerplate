@@ -1,0 +1,30 @@
+{
+  "name": "vanilla-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple workflow starter for building vanilla JS apps",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradtraversy/vanilla-parcel-boilerplate.git"
+  },
+  "keywords": [
+    "parcel"
+  ],
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradtraversy/vanilla-parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/bradtraversy/vanilla-parcel-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/runtime-corejs2": "^7.9.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
