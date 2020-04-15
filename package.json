@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
-    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+    "build": "parcel build public/index.html --out-dir dist --public-url ./",
+    "clean": "rm -rf ./development && rm -rf ./.cache"
   },
   "repository": {
     "type": "git",
