@@ -1,4 +1,4 @@
 node_modules
 .cache/
 development
-production
+dist
