@@ -4,6 +4,8 @@ This is a starter workflow for building vanilla JavaScript applications using Pa
 
 There is some sample code (Header and User components) and styling, but feel free to remove them
 
+This project was created in a YouTube tutorial [here](https://www.youtube.com/watch?v=8rD9amRSOQY&t=1165s)
+
 # Usage
 
 Install dependencies
