@@ -1,11 +1,16 @@
-import User from './components/User';
-import Header from './components/Header';
-import './scss/app.scss';
+import Header from './components/Header'
+import User from './components/User'
 
-const app = async () => {
-	document.getElementById('header').innerHTML = Header();
-	document.getElementById('user').innerHTML = await User();
-};
+async function App() {
+  const template = document.createElement('template')
+  template.innerHTML = `
+    <div class="container">
+      ${Header()}
+      ${await User()}
+    </div>
+  `
+  // Return a new node from template
+  return template.content.cloneNode(true)
+}
 
-// Load app
-app();
+export default App;
