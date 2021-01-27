@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run clean && parcel public/index.html --out-dir development -p 3000",
-    "build": "parcel build public/*.html --out-dir dist --public-url ./",
-    "clean": "rimraf ./development && rimraf -rf ./.cache"
+    "build": "rimraf ./dist && parcel build public/*.html --out-dir dist --public-url ./",
+    "clean": "rimraf ./development && rimraf ./.cache"
   },
   "repository": {
     "type": "git",
